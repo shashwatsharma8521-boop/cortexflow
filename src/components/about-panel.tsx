@@ -53,8 +53,8 @@ const BulletItem = ({ children }: { children: React.ReactNode }) => (
 
 export function AboutPanel({ isDark = false }: AboutPanelProps) {
   const mnmLogo = isDark
-    ? "/images/ma2tic logo dark mode .png"
-    : "/images/ma2tic logo light mode .png";
+    ? "/images/mnm logo dark mode .png"
+    : "/images/mnm logo light mode .png";
 
   return (
     <div className="h-full overflow-y-auto overflow-x-hidden px-4 py-4 sm:px-6 lg:px-8">

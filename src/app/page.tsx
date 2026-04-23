@@ -846,7 +846,7 @@ export default function DashboardPage() {
   const isBiomarkersPage = activePage === "biomarkers";
   const isAboutPage = activePage === "about";
   const isLibraryPage = isDashboardPage || isHistoryPage || isReportsPage || isBrainRegionsPage || isBiomarkersPage || isAboutPage;
-  const topbarTitle = isAboutPage ? "About MA2TIC" : "Cognitive Analysis";
+  const topbarTitle = isAboutPage ? "About MnM" : "Cognitive Analysis";
 
   const showPhase2 = hasStarted && !isLoading && !isLibraryPage;
   const showPhase1 = !showPhase2 && !isLibraryPage;

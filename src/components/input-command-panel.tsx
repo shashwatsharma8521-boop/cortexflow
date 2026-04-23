@@ -244,7 +244,7 @@ export function InputCommandPanel({
             className="text-[12px] font-medium"
             style={{ color: "rgba(99,179,237,0.85)", fontFamily: "var(--font-dm-sans)" }}
           >
-            Transcribing with Whisper — analysing shortly…
+            Transcribing with Gemini — analysing shortly…
           </span>
         </div>
       )}
