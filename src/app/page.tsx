@@ -302,7 +302,7 @@ function BiomarkersPanel() {
         <div className="w-1 self-stretch rounded-full shrink-0" style={{ background: "linear-gradient(to bottom, #14b8a6, #f97316)" }} />
         <p style={{ color: "var(--nt-text-xs)", fontSize: 10, fontFamily: "var(--font-dm-sans)", lineHeight: 1.6 }}>
           All scores normalised 0–1 against healthy-population baselines. Higher scores indicate greater deviation.
-          Biomarkers are extracted through a Groq-ready transcription layer and an optimized multi-agent analysis backend.
+          Biomarkers are extracted through a Gemini-ready transcription layer and an optimized multi-agent analysis backend.
         </p>
       </div>
     </div>
